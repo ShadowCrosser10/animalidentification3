@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>Animal Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Fredoka&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   
+  </head>
+
+  <body>
+
+      <div class="col-xs-12 firstdiv text-center">
+          <h1 class="btn btn-default header">Animal Identification</h1>
+          <br>
+          <br>
+          <label>Note: For the cat/dog image to appear, you have to make a meowing/barking sound.</label>
+          <br>
+          <br>
+          <label>Teachable Machine Link: <a href="https://teachablemachine.withgoogle.com/models/LFzq9q7ds/model.json">https://teachablemachine.withgoogle.com/models/LFzq9q7ds/model.json</a></label>
+        </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="seconddiv">
+        <center>
+          <button class="btn btn-warning start_btn" onclick="start()">Start</button>
+          <br>
+          <br>
+          <label>Click "start" to start recording your audio to make the aliens dance!</label>
+          <br>
+          <h3>I can hear... <span id="hear"></span></h3>
+          <br>
+          <h3>The accuracy is... <span id="accuracy"></span></h3>
+          <br>
+          <img src="ear.jpg" height="300" width="300" id="hearing">
+          
+          <br>
+          <br>
+        </center>
+      </div>
+     <div class="thirddiv">
+       Developed by: TheAditya ©
+     </div>
+    
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+

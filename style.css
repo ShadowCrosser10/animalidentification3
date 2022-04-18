@@ -1,0 +1,49 @@
+body {
+    font-family: 'Cinzel', serif;
+    font-family: 'Fredoka', sans-serif;
+    background-color: teal;
+}
+
+.header {
+    font-size: 36px;
+}
+
+label {
+    font-size: 16px;
+}
+
+.start_btn {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.seconddiv {
+    background-color: pink;
+  
+
+}
+
+.firstdiv {
+    background-color: teal;
+}
+
+.thirddiv {
+    text-align: center;
+    line-height: 5;
+    font-size: 16px;
+    bottom: 0;
+    
+}
+
+a {
+    color: blue; 
+}
+
+.thirddiv {
+    text-align: center;
+    line-height: 5;
+    font-size: 16px;
+    bottom: 0;
+    text-shadow: 5px 5px 5px black;
+    
+}
